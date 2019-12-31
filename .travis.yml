@@ -1,0 +1,11 @@
+sudo: required
+services:
+    - docker
+
+before_install:
+    - docker build -t sdetautomation/docker-react -f Dockerfile.dev .
+
+script:
+    - docker run sdetautomation/docker-react npm run test -- --coverage
+    # - docker run -e CI=true sdetautomation/docker-react npm run test
+
