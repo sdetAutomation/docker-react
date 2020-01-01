@@ -22,9 +22,7 @@ A web hook has been setup with [Netlify](https://www.netlify.com/) for all Pushe
 
 Hosting
 -----
-This project is hosted on Netlify.  To view deployed app navigate to [https://dreamy-archimedes-6bfa38.netlify.com/]
-
-You can test out this api entirely from the swagger ui page. 
+This project is hosted on Netlify.  [Click here to view deployed app](https://dreamy-archimedes-6bfa38.netlify.com/)
 
 
 Questions / Contact / Contribute
