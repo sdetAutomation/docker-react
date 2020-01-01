@@ -9,17 +9,14 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload 
-
-          This app was created by sdetAutomation.  Please visit my github @ https://github.com/sdetAutomation/ 
-          for more information.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/sdetAutomation/docker-react"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          This app was created by sdetAutomation. Click here for more information.
         </a>
       </header>
     </div>
