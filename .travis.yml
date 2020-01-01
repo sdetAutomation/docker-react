@@ -9,16 +9,17 @@ script:
     # - docker run sdetautomation/docker-react npm run test -- --coverage
     - docker run -e CI=true sdetautomation/docker-react npm run test
 
-deploy:
-    # only if missing bucket_name error appears, comment in below.
-    # edge: true
-    prodiver: elasticbeanstalk
-    region: "us-east-2"
-    app: "docker-react"
-    env: "DockerReact-env"
-    bucket_name: "elasticbeanstalk-us-east-2-904520069523"
-    bucket_path: "docker-react"
-    on: 
-        branch: master
-    access_key_id: $AWS_ACCESS_KEY
-    secret_access_key: $AWS_SECRET_KEY
+## below is only for deploying to aws.  Currently app is deployed via netlify.
+# deploy:
+#     # only if missing bucket_name error appears, comment in below.
+#     # edge: true
+#     prodiver: elasticbeanstalk
+#     region: "us-east-2"
+#     app: "docker-react"
+#     env: "DockerReact-env"
+#     bucket_name: "elasticbeanstalk-us-east-2-904520069523"
+#     bucket_path: "docker-react"
+#     on: 
+#         branch: master
+#     access_key_id: $AWS_ACCESS_KEY
+#     secret_access_key: $AWS_SECRET_KEY

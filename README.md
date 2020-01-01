@@ -1,3 +1,41 @@
+```                                                                      
+#             .___      __     _____          __                         __  .__               
+#    ______ __| _/_____/  |_  /  _  \  __ ___/  |_  ____   _____ _____ _/  |_|__| ____   ____  
+#   /  ___// __ |/ __ \   __\/  /_\  \|  |  \   __\/  _ \ /     \\__  \\   __\  |/  _ \ /    \ 
+#   \___ \/ /_/ \  ___/|  | /    |    \  |  /|  | (  <_> )  Y Y  \/ __ \|  | |  (  <_> )   |  \
+#  /____  >____ |\___  >__| \____|__  /____/ |__|  \____/|__|_|  (____  /__| |__|\____/|___|  /
+#       \/     \/    \/             \/                         \/     \/                    \/ 
+```
+# docker-react
+sample project for setting up a CICD pipeline for a react app.  
+
+
+Continuous Integration(CI)
+------------
+A web hook has been setup with Travis CI for all Push and Pull Requests.
+
+
+Continuous Delivery(CD)
+------------
+A web hook has been setup with [Netlify](https://www.netlify.com/) for all Pushes to master.
+
+
+Hosting
+-----
+This project is hosted on Netlify.  [Click here to view deployed app](https://dreamy-archimedes-6bfa38.netlify.com/)
+
+
+Questions / Contact / Contribute
+------------
+Feel free to fork this repo, add to it, and create a pull request if you like to contribute.  
+
+If you have any questions, you can contact me via email: `sdet.testautomation@gmail.com`
+
+
+
+
+--------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
