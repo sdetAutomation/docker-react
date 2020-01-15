@@ -9,6 +9,7 @@
 # docker-react
 sample project for setting up a CICD pipeline for a react app.  
 
+[![Build Status](https://travis-ci.org/sdetAutomation/docker-react.svg?branch=master)](https://travis-ci.org/sdetAutomation/docker-react)
 
 Continuous Integration(CI)
 ------------
